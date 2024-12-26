@@ -57,7 +57,7 @@ class Tetris:
         self.game_over = False
         
         # 字体
-        self.font = pygame.font.Font(None, 36)
+        self.font = pygame.font.SysFont('simsun', 36)
         
         # 生成第一个方块
         self.new_shape()
